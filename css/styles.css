@@ -27,7 +27,7 @@ body {
 }
 
 /* studio */
-
+/* header */
 /* logo */
 .logo {
   font-family: var(--secondary-font);
@@ -74,8 +74,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color:var(--secondary-text-color);
 }
-
+.contact-link:hover,
+.contact-link:focus{
+  color: var(--accent-color);
+}
 /* hero */
 .hero {
   background-color: var(--primary-text-color);
@@ -135,7 +139,7 @@ body {
 .our-team {
   background-color: var(--background-btn-filtres);
 }
-.our-team-list{
+.our-team-item{
   background-color: var(--backround-color);
 }
 .our-team-title {
